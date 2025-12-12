@@ -5,7 +5,7 @@ A platform that lets users generate accessible research article short versions a
 Note: For the complete functionality, it also requires a deployment of the "research-digests-backend".
 
 User-Flow:
-1. Sign Up & Generate, Drag & Drop PDF
+1. Sign Up & Drag/Drop a PDF of a research article
 2. Adjust the automatically generated summary as needed.
 3. Adjust the automatically generated title and thumbnail as needed.
 4. Add the full reference to the original article (automatically, via DOI, or manually).
