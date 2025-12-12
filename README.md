@@ -1,4 +1,4 @@
-#Research-Digests-Frontend
+# Research-Digests-Frontend
 
 A platform that lets users generate accessible research article short versions and share them with the public.
 
