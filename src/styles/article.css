@@ -1,0 +1,21 @@
+.article-content p {
+    margin-top: 0px; /* Adjust the value as needed */
+    margin-bottom: 5px;
+  }
+  .article-contentMethod p {
+    margin-top: 0px; /* Adjust the value as needed */
+    margin-bottom: 0px;
+  }
+  .overflow {
+    display: -webkit-box;           /* Required for line clamping */
+    -webkit-box-orient: vertical;   /* Specifies the orientation */
+    -webkit-line-clamp: 3;          /* Limits text to 3 lines */
+    overflow: hidden;               /* Hides overflowing text */
+    text-overflow: ellipsis;        /* Adds ellipsis (...) */
+    overflow-wrap: break-word;      /* Allows breaking long words */
+  }
+  .text-content::after {
+    content: '■'; /* Unicode character for a black square */
+    font-size: 10px; /* Adjust size as needed */
+    color: black; /* Color of the square */
+  }

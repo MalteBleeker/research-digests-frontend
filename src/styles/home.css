@@ -1,0 +1,18 @@
+.tileForm {
+    transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.tileForm:hover {
+    transform: scale(1.05); /* Scale up the tile slightly on hover */
+}
+
+.topics {
+  /* hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* hide scrollbar for chrome, safari and opera */
+.topics::-webkit-scrollbar {
+  display: none;
+}
